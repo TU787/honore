@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KIDS STORE</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif ;
+        }
+        body
+        {
+            background-color: #f4f4f9;
+            color: #fff;
+            line-height: 2rem;
+        }
+        header
+        {
+            background-color: #2a0487;
+            position: fixed;
+            width: 100%;
+            align-items: center;
+            top: 0;
+            display: flex;
+            justify-content: space-between;
+            padding: 2rem 3rem;
+            z-index: 1000;
+        
+        }
+        nav
+        {
+            display: flex;
+            gap: 15px;
+        }
+        nav a
+        {
+            text-decoration: none;
+            color: white;
+            border-radius: 3px;
+
+        }
+        nav a:hover
+        {
+            background-color: #ff6347 ;
+        border-radius: 10PX;
+        }
+        .nav-toggle
+        
+        .kimz
+        {
+            margin-top: 80px;
+            background: linear-gradient(to left, #ff6347,blue);
+            color: #fff;
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+        .kimz h2{
+            font-size: 2.5rem;
+        }
+
+        .Product
+         {
+            padding: 2rem;
+            text-align: center;
+            background: linear-gradient(to right,#ff6347 )
+         }   
+         .Product h2 {
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+            color: #333;
+         }
+
+         .Product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 1.5rem;
+         }
+         .Product-card {
+           background-color:rgb(28, 18, 20);
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 8px 16px rgb(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+         }
+         .Product-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+         }
+
+         .Product-card img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+         }
+         .Product-card-content {
+            padding: 1rem;
+            text-align: center;
+         }
+         .Product-card h3 {
+            font-size: 1.4rem;
+            color: #333;
+            margin-bottom: 0.5rem;
+         }
+.Product-card p {
+    font-size: 1.1rem;
+    color: #666;
+}
+.Product-card .price
+{
+    font-size: 1.3rem;
+    color: #ff4500;
+    margin-top: 0.5rem;
+}
+.Product-card button {
+    background-color: #ff4500;
+    color: #fff;
+    border: none;
+    padding: 0.7rem 1.2rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.Product-card button:hover {
+    background-color: #e63900;
+}
+footer {
+    background-color: #141313;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 2rem;
+
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>E-Commerce Store</h1>
+        <button class="nav-toggle">&#9776;</button>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="computers.html">Computers</a>
+            <a href="WOMEN.html">Women</a>
+            <a href="kids.html">Kids</a>
+            <a href="cars.html">cars</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+    <section class="kimz">
+        <h2>KIDS STORE</h2>
+        <p>In kids store we have some products like:clothes,shoes,trouser,t-shirts and coats </p>
+    </section>
+    <section class="Product">
+        <h2>Kids Store</h2>
+        <div class="Product-grid">
+           <div class="Product-card">
+               <img src="u10.jpg" alt="Kids">
+               <div class="Product-card-content">
+                   <h3> Gray pinger</h3>
+                   <p class="price">$30.88</p>
+                   <button>Add to Cart</button>
+               </div>
+           </div>
+           <div class="Product-card">
+            <img src="umu.jpg" alt="Kids">
+            <div class="Product-card-content">
+                <h3>black shirt&short</h3>
+                <p class="price">$190</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+        <div class="Product-card">
+            <img src="uuu.jpg" alt="kids">
+            <div class="Product-card-content">
+                <h3>Coat & scurt</h3>
+                <p class="price">$100</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+        <div class="Product-card">
+            <img src="r7.jpg" alt="kids">
+            <div class="Product-card-content">
+                <h3>kids dress</h3>
+                <p class="price">$99.9</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+        <div class="Product-card">
+            <img src="sso.jpg" alt="kids">
+            <div class="Product-card-content">
+                <h3>Blue shoes</h3>
+                <p class="price">$40.95</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+        <div class="Product-card">
+            <img src="CH5.jpg" alt="Kids">
+            <div class="Product-card-content">
+                <h3>VALESES</h3>
+                <p class="price">$880.22</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+        <div class="Product-card">
+            <img src="sta.jpg" alt="kids">
+            <div class="Product-card-content">
+                <h3>star kid</h3>
+                <p class="price">$650.44</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+        <div class="Product-card">
+            <img src="wewe.jpg" alt="kids">
+            <div class="Product-card-content">
+                <h3>black shoes
+                </h3>
+                <p class="price">$100</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+        <div class="Product-card">
+            <img src="KID 10.jpg" alt="kids">
+            <div class="Product-card-content">
+                <h3>WHITE shoes
+                </h3>
+                <p class="price">$100</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+        <div class="Product-card">
+            <img src="KID GIRL.jpg" alt="kids">
+            <div class="Product-card-content">
+                <h3>GIRL KID shoes
+                </h3>
+                <p class="price">$100</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+        
+        
+        
+  </section>
+  <footer>
+  <div class="footer">
+    &copy;2024 Designed By Geez companies
+  </div></footer>
+</body>
+</html>
